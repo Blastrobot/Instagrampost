@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(187, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#contenedor-post {
+    background-color: white;
+    width: 450px;
+    height: auto;
+    margin: auto;
+}
+
+#contenedor-header {
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+#contenedor-header .pfp {
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 2.5%;
+}
+
+#contenedor-header .header h1 {
+    margin: 0%;
+    margin-top: 5px;
+}
+
+#contenedor-header .header p {
+    margin: 0%;
+    margin-bottom: 5px;
+}
+
+#contenedor-header .options {
+    position: relative; left: 63%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#img-body {
+    width: 100%;
+}
+
+#img-body img {
+    width: 100%;
+}
+
+#contenedor-footer {
+    background-color: white;
+    width: 100%;
+}
+
+.alineado-derecha-izq{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alineado-izq{
+    justify-content: start;
+}
+
+.alineado-dcha{
+    justify-content: end;
+}
+
+.caption{
+    margin: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
