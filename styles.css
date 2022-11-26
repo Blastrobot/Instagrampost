@@ -17,13 +17,14 @@ body {
     width: 100%;
     display: flex;
     background-color: white;
+    justify-content: space-between;
 }
 
 #contenedor-header .pfp {
     margin-left: 2.5%;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-right: 2.5%;
+    margin-right: -265px;
 }
 
 #contenedor-header .header h1 {
@@ -37,9 +38,10 @@ body {
 }
 
 #contenedor-header .options {
-    position: relative; left: 63%;
+    /* position: relative; left: 63%; */
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-right: 5%;
 }
 
 #img-body {
@@ -61,13 +63,13 @@ body {
     justify-content: space-between;
 }
 
-.alineado-izq{
+/* .alineado-izq{
     justify-content: start;
 }
 
 .alineado-dcha{
     justify-content: end;
-}
+} */
 
 .caption{
     margin: 0%;
